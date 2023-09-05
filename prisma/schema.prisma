@@ -18,12 +18,12 @@ model students {
 }
 
 model teachers {
-  id String @id @default(uuid())
+  id           String @id @default(uuid())
   name_teacher String
 }
 
 model subjects {
-  id String @id @default(uuid())
+  id          String @id @default(uuid())
   course_name String
-  workload Int
+  workload    Int
 }
